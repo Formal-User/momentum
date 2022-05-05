@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="js/greeting.js"></script>
+    <script defer src="js/clock.js"></script>
+    <script defer src="js/quotes.js"></script>
+    <script defer src="js/background.js"></script>
+    <script defer src="js/todo.js"></script>
+    <script defer src="js/weather.js"></script>
+    <title>
+      learn javascript
+    </title>
+  </head>
+  <body>
+    <div id="container">
+      <div id = "quotes">
+        <span></span>
+        <span></span>
+      </div>
+      <h2 id = "clock">00:00</h2>
+      <form id="login-form" class="hidden">
+        <input requiredbmaxlength="15" type="text" placeholder="What is your name?">
+        <input type = "submit" value = "Log in">
+      </form>
+      <h1 id = "greeting" class="hidden"></h1>
+      <div id="todocontainer">
+        <form id="todo-form">
+          <input type="text" placeholder="Write what to do" required>
+        </form>
+        <ul id = "todo-list"></ul>
+      </div>
+      <div id = "weather">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </body>
+</html>
